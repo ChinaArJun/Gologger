@@ -1,7 +1,7 @@
 # Gologger
 ## Installation
 ````
-$ go get github.com/yosssi/gologger
+$ go get github.com/ChinaArJun/Gologger
 ````
 ## Examples
 ```` go
