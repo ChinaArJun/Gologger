@@ -1,13 +1,12 @@
-# Gologger
-## Installation
-````
-$ go get github.com/ChinaArJun/Gologger
-````
-## Examples
-```` go
-// 测试日志库
-func main() {
-	// log := Gologger.NewLog("Info")
+package Gologger
+
+import (
+	"github.com/ChinaArJun/Gologger"
+	"testing"
+	"time"
+)
+
+func TestName(t *testing.T) {
 	log := Gologger.NewFileLogger("Info", "./", "zhoulinwan.log", 10*1024*1024)
 	for {
 
@@ -21,4 +20,3 @@ func main() {
 		time.Sleep(2 * time.Second)
 	}
 }
-```
